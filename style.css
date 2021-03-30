@@ -1,0 +1,232 @@
+body{
+    background-image: url("images/wheat.png");
+}
+
+#introSection{
+    display: flex;
+    /* background-color: cyan; */
+    padding-bottom: 5%;
+}
+    #introDiv{
+        background-image: url("images/congruent_pentagon.png");
+        width: 60%;
+        min-height: 70px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        text-align: center;
+        padding-top: 15px;
+        color:crimson;
+        font-size: 20px;
+        font-family:cursive;
+    }
+
+
+
+    #logoDiv{
+        background-image: url("images/b164fe1b8c2dff94eda4c8c7a0c423cc.jpg");
+        background-size: cover;
+        width: 15%;
+        min-height: 70px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+#inputSection{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+    #firstInputDiv{
+        width: 45%;
+        min-height: 300px;
+        background-color: cyan;
+        margin-left: 10%;
+        padding-left: 10px;
+        background-image: url('images/74674F.png');
+        background-size: cover;
+    }
+    #secondInputDiv{
+        width: 30%;
+        min-height: 300px;
+        background-color: cyan;
+        margin-left: 5%;
+        background-image: url('images/wp5787008.jpg');
+        background-size: cover;
+    }
+
+
+p{
+    margin-bottom: 0%;
+    
+}
+
+#name, #points, #status{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+#status{
+    width: 208px;
+    height: 36px;
+    text-align: center;
+}
+
+
+
+#namepara, #pointpara, #statuspara{
+    color:white;
+   font-family:sans-serif;
+    font-size:15px ;
+    
+
+}
+
+#inputbtn{
+    width: 80px;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 3%;
+    background-color: green;
+    color:white;
+}
+
+#showcaseSection{
+    display: flex;
+    
+}
+
+    #showcaseDiv1{
+        width: 30%;
+        margin-left: 10%;
+        background-color: cyan;
+        min-height: 250px;
+        background-image: url("images/32b26832c0f9dc19b6b7c70dfd66f0be.jpg");
+        background-size: cover;
+
+    }
+    
+    
+    #showcaseDiv2{
+        width: 45.5%;
+        min-height: 250px;
+        background-color: cyan;
+        margin-left: 5%;
+        background-image: url("images/wallpapersden.com_pubg-key-art_1920x1080.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        
+        
+    }
+
+        #showcaseTable td {
+            text-align: center;
+        }
+
+
+
+
+#analyzeDiv{
+    width: 80%;
+    height: 100px;
+    /* background-color: cyan; */
+    margin-top:  5%;
+    margin-left: 10%;
+   
+    
+
+}
+
+    #analyze{
+        width: 200px;
+        height: 70px;
+        margin-left: 35%;
+        background-color: rgb(101, 160, 6);
+        color:white;
+        font-size: 17px;
+        font-family: cursive;
+    }
+
+
+#outputSection1{
+    display: flex;
+    margin-top: 3%;
+   
+}
+
+        #firstDivOfOutput1{
+            width: 37.5%;
+            min-height: 200px;
+            background-color: cyan;
+            margin-left: 10%;
+            background-image: url("images/tileable_wood_texture.png");
+            color: Black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding-top: 5%;
+           
+
+        }
+
+
+        #secondDivOfOutput1{
+            width: 37.5%;
+            min-height: 200px;
+            background-color: cyan;
+            margin-left: 5%;
+            background-image: url("images/tileable_wood_texture.png");
+            color: Black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding-top: 5%;
+        }       
+
+#top13Div{
+    width: 80%;
+    min-height: 600px;
+    background-color: cyan;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    background-image: url("images/wallpapersden.com_pubg-key-art_1920x1080.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+        #caption{
+            width: 300px;
+            height: 100px;
+            font-family:fantasy;
+            /* background-color: cyan; */
+           margin-bottom: 40%;
+           text-align: center;
+           color: white;
+        }
+        #tableDiv{
+            width: 60%;
+            height: 350px;
+            /* background-color: cyan; */
+            color:black;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+                table, th, td {
+                    border: 1px solid white;
+                    color: Black;
+                }
+                table{
+                    width: 80%;
+                    background-image: url("images/purty_wood.png");
+                   
+                }
+                

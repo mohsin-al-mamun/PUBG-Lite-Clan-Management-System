@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="introSection">
+
+        <div id="introDiv"> <h1>Welcome to <b style="color: darkblue;">PUBG Mobile Lite</b> Clan Management System.</h1></div>
+        <div id="logoDiv"></div>
+
+    </section>
+
+
+    <section id="inputSection">
+        <div id="firstInputDiv">
+            <div><p id="namepara">Name:</p><input type="text" id="name"> </div>
+            <div> <p id="pointpara" >Activity Points:</p><input type="number" id="points"></div>
+            <div><p id="statuspara">Current Status:</p><select  id="status"> <option >Leader</option>
+                                                                            <option >Co-leader</option>
+                                                                            <option >Elite</option>
+                                                                            <option >Member</option> </select> </div>
+            <button id="inputbtn">Add</button>
+        </div>
+
+        <div id="secondInputDiv"></div>
+
+    </section>
+
+    <section id="showcaseSection">
+
+        <div id="showcaseDiv1"></div>
+
+        <div id="showcaseDiv2">
+
+            <table id="showcaseTable" style="visibility: hidden;" >
+                <caption style="color: cornsilk; padding-bottom: 3px; font-size: 17px;">Randomly inputed datas. </caption>
+                <tr><th>Name</th><th>Activity Points</th> <th>Status</th></tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <div id="analyzeDiv">
+        <button id="analyze">Click To Analyze Datas</button>
+    </div>
+
+    <section id="outputSection1">
+
+        <div id="firstDivOfOutput1">
+        
+            <table id="leaderTable">
+                <caption><b>The Leader</b></caption>
+                <tr><th>Name</th> <th>Activity Points</th></tr>
+            
+            </table>
+        </div>
+
+
+        <div id="secondDivOfOutput1">
+           
+            <table id="coLeaderTable">
+                <Caption> <b>Co-leaders</b></Caption>
+                <tr><th>Name</th> <th>Activity Points</th></tr>
+            </table>
+        </div>
+    </section>
+
+
+
+    <div id="top13Div">
+        <div id="caption"><h1>TOP  13  OF  THE  CLAN !!!</h1> </div>
+    
+        <div id="tableDiv">
+            <table id="top13Table" >
+               
+            <tr>
+                <th>Name</th> <th>Points</th> <th>Status</th>
+            </tr>
+            
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
