@@ -136,6 +136,8 @@ p{
     /* background-color: cyan; */
     margin-top:  5%;
     margin-left: 10%;
+    display: flex;
+    justify-content: center;
    
     
 
@@ -144,11 +146,22 @@ p{
     #analyze{
         width: 200px;
         height: 70px;
-        margin-left: 35%;
+        /* margin-left: 35%; */
         background-color: rgb(101, 160, 6);
         color:white;
         font-size: 17px;
         font-family: cursive;
+        margin-right: 10%;
+    }
+
+    #reload{
+        width: 200px;
+        height: 70px;
+        background-color:red;
+        color:white;
+        font-size: 17px;
+        font-family: cursive;
+        visibility: hidden;
     }
 
 
