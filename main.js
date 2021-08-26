@@ -12,7 +12,7 @@ let ShowcaseTable = document.getElementById("showcaseTable");
 //DOM Nodes....... Analyze and Reload Button.
 let Analyze = document.getElementById("analyze");
 let Reload = document.getElementById('reload');
-
+let Clear =  document.getElementById("clear");
 //DOM Nodes....... OutPut  Section.
 let LeaderTable = document.getElementById("leaderTable");
 let CoLeaderTable = document.getElementById('coLeaderTable');
@@ -218,5 +218,15 @@ Reload.addEventListener('click', function(){
     Reload.style.visibility = 'hidden';
     location.reload();
 });
+
+
+// Clear button to clear local storgae.
+
+Clear.addEventListener('click', function(){ 
+
+    localStorage.clear();
+    location.reload();
+});
+
 
 

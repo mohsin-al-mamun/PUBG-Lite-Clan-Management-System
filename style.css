@@ -130,39 +130,59 @@ p{
 
 
 
-#analyzeDiv{
-    width: 80%;
-    height: 100px;
-    /* background-color: cyan; */
-    margin-top:  5%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: center;
-   
-    
-
-}
-
-    #analyze{
-        width: 200px;
-        height: 70px;
-        /* margin-left: 35%; */
-        background-color: rgb(101, 160, 6);
-        color:white;
-        font-size: 17px;
-        font-family: cursive;
-        margin-right: 10%;
-    }
-
-    #reload{
-        width: 200px;
-        height: 70px;
-        background-color:red;
-        color:white;
-        font-size: 17px;
-        font-family: cursive;
-        visibility: hidden;
-    }
+        #analyzeDiv{
+            width: 80%;
+            height: 100px;
+            /* background-color: cyan; */
+            margin-top:  5%;
+            margin-left: 10%;
+            display: flex;
+            justify-content:space-between;
+           
+            
+        
+        }
+        
+            #analyze{
+                width: 200px;
+                height: 70px;
+                /* margin-left: 35%; */
+                background-color: rgb(101, 160, 6);
+                color:white;
+                font-size: 17px;
+                font-family: cursive;
+                 border-radius:15px;
+                 border: none;
+                 offset: none;
+                /* margin-right: 10%; */
+            }
+        
+            #reload{
+                width: 200px;
+                height: 70px;
+                background-color:yellow;
+                color:black;
+                font-size: 17px;
+                font-family: cursive;
+                visibility: hidden;
+                border-radius:15px;
+                border: none;
+                offset: none;
+            }
+        
+            #clear{
+                width: 200px;
+                height: 70px;
+                background-color:red;
+                color:white;
+                font-size: 17px;
+                font-family: cursive;
+                visibility:visible;
+                border-radius:15px;
+                border: none;
+                offset: none;
+            }
+        
 
 
 #outputSection1{
@@ -240,6 +260,7 @@ p{
                 table{
                     width: 80%;
                     background-image: url("images/purty_wood.png");
+                    height: min-content;
                    
                 }
                 
